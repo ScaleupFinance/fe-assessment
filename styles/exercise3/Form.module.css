@@ -1,0 +1,13 @@
+.label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  display: block;
+}
+
+.number {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}

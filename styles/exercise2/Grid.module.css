@@ -1,0 +1,9 @@
+.grid {
+}
+
+.dino {
+  font-size: 50px;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+  padding: 1rem;
+}
