@@ -13,7 +13,7 @@ Then install dependencies:
 ```bash
 npm install
 # or
-yarn install
+yarn
 ```
 
 And lastly start the local development environment:

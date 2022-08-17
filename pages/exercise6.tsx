@@ -9,8 +9,9 @@ const Exercise5 = () => {
         All of these exercise components are using <em>Layout</em> component.
       </p>
       <p>
-        Change the code so that Layout is used automatically in all exercise
-        pages but not in <em>index.tsx</em> page.
+        Change the code so that <em>Layout</em> is the default in{" "}
+        <em>pages/_app.tsx</em> and it can be overridden from the page
+        component. <em>pages/index.tsx</em> should not have any layout.
       </p>
     </Layout>
   );

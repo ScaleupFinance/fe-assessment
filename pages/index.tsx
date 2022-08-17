@@ -13,6 +13,12 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>Scaleup Assessment</h1>
 
+        <p className={styles.description}>
+          All the exercises are files in the <em>pages</em> folder. All
+          components used in exercises are in <em>components</em> folder. All
+          styles are in <em>styles</em> folder.
+        </p>
+
         <div className={styles.grid}>
           {[1, 2, 3, 4, 5, 6].map((exercise) => (
             <Link key={exercise} href={`/exercise${exercise}`}>

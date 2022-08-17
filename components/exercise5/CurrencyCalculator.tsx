@@ -14,6 +14,16 @@ const CurrencyCalculator = () => {
       const response = await axios.get<Record<string, string>>(
         "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json"
       );
+      /*
+      The result from API call is something like:
+      {
+        ...
+        "eur": "Euro",
+        ...,
+        "usd": "United States dollar",
+        ...
+      }
+      */
       setCurrencies(response.data);
     };
 

@@ -11,6 +11,10 @@ const Exercise2 = () => {
         a 3 x 3 grid with 1 rem gap between them
       </p>
 
+      <p>
+        Needed CSS file is in <em>styles/exercise2/Grid.module.css</em>
+      </p>
+
       <Grid />
     </Layout>
   );

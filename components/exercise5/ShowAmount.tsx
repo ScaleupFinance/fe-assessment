@@ -20,6 +20,13 @@ const ShowAmount = ({
       const response = await fetch(
         `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currencyFrom}/${currencyTo}.json`
       );
+      /*
+      The result from API call is something like:
+      {
+          "date": "2022-08-16",
+          "usd": 1.015177
+      }
+      */
       const data = await response.json();
       setConvertedAmount(data[currencyTo]);
     };
