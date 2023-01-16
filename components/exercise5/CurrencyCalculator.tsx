@@ -5,8 +5,8 @@ import ShowAmount from "./ShowAmount";
 
 const CurrencyCalculator = () => {
   const [amount, setAmount] = useState("");
-  const [currencyFrom, setCurrencyFrom] = useState();
-  const [currencyTo, setCurrencyTo] = useState();
+  const [currencyFrom, setCurrencyFrom] = useState<string>();
+  const [currencyTo, setCurrencyTo] = useState<string>();
   const [currencies, setCurrencies] = useState(null);
 
   useEffect(() => {
@@ -42,7 +42,7 @@ const CurrencyCalculator = () => {
     setCurrencyTo(event.target.value);
   };
 
-  if (!currencies) {
+  if (currencies === null) {
     return <p>Loading...</p>;
   }
 
