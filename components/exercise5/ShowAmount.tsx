@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 
 interface ShowAmountProps {
@@ -17,7 +18,7 @@ const ShowAmount = ({
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(
+      const response = await axios.get(
         `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currencyFrom}/${currencyTo}.json`
       );
       /*
@@ -27,8 +28,7 @@ const ShowAmount = ({
           "usd": 1.015177
       }
       */
-      const data = await response.json();
-      setConvertedAmount(data[currencyTo]);
+      setConvertedAmount(response.data[currencyTo]);
     };
 
     fetchData();
