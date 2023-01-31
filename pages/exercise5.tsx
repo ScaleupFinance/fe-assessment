@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 const Exercise5 = () => {
   return (
     <Layout>
-      <h1>Exercise 5 - Typescript and Testing</h1>
+      <h1>Exercise 5 - Typescript, Testing and Improvments</h1>
 
       <p>
         1. Fix typescript errors in <em>CurrencyCalculator</em> component. If
@@ -14,6 +14,11 @@ const Exercise5 = () => {
 
       <p>
         2. Explaing how you would test <em>CurrencyCalculator</em> and{" "}
+        <em>ShowAmount.tsx</em> components.
+      </p>
+      
+      <p>
+        3. How would you improve the <em>CurrencyCalculator</em> and{" "}
         <em>ShowAmount.tsx</em> components.
       </p>
 
