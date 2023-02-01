@@ -7,18 +7,18 @@ const Exercise5 = () => {
       <h1>Exercise 5 - Typescript, Testing and Improvments</h1>
 
       <p>
-        1. Fix typescript errors in <em>CurrencyCalculator</em> component. If
+        1. Fix typescript error in <em>CurrencyCalculator</em> component. (If
         errors are not visible in your editor, run <code>tsc --noEmit</code> to
-        see them.
+        see them.)
       </p>
 
       <p>
-        2. Explaing how you would test <em>CurrencyCalculator</em> and{" "}
+        2. Explain how you would test <em>CurrencyCalculator</em> and{" "}
         <em>ShowAmount.tsx</em> components.
       </p>
-      
+
       <p>
-        3. How would you improve the <em>CurrencyCalculator</em> and{" "}
+        3. Explain how would you improve the <em>CurrencyCalculator</em> and{" "}
         <em>ShowAmount.tsx</em> components.
       </p>
 

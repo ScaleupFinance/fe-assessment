@@ -8,7 +8,7 @@ const Exercise1 = () => {
 
       <p>
         Implement the stop handler in <em>Presentation</em> component so that
-        slides do not change automatically
+        slides stop playing.
       </p>
 
       <Presentation />
